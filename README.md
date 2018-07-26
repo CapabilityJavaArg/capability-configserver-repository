@@ -1,1 +1,1 @@
-# capability-ms-localization
+# capability-configserver-repository
