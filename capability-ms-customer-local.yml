@@ -6,6 +6,7 @@ eureka:
     fetch-registry: true
   instance:
     hostname:  localhost
+    instance-id: ${spring.application.name}:${random.int}
 
 server:
   port: 8081
@@ -13,3 +14,4 @@ server:
 capability:
   microservice: 
     localization: capability-ms-localization
+    secure: false
