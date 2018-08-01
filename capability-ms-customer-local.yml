@@ -10,6 +10,16 @@ eureka:
 
 server:
   port: 8081
+  
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/capability-customer?useSSL=false
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: create
+  
 
 capability:
   microservice: 
